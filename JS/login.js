@@ -16,6 +16,7 @@ console.log(mobileNumber,pinNumber);
 // this not do use....
 if(mobileNumber === '5' && pinNumber === '1234'){
     console.log('you r login');
+    window.location.href = '/home.html';
 }
 else{
     alert('wrong number and pin')
